@@ -37,15 +37,15 @@ inquirer
         choices: ['MIT License', 'GNU GPLv3.0', 'GNU AGPLv3', , 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense', 'No License']
     },
     {
-        type: 'input',
-        name: 'tests',
-        message: "If applicable, provide any tests written for your application and provide examples on how to run them."
-    },
-    {
         type: "input",
         name: "contributors",
         message: "Who are the contributors of this projects?"
     },
+    {
+        type: 'input',
+        name: 'tests',
+        message: "If applicable, provide any tests written for your application and provide examples on how to run them."
+    }, 
 ])
 .then((data) => fs.writeFile('README.md', writeToFile(data), (err) => 
 err ? console.error(err) : console.log("Success! Your README.md file has been generated.")))
@@ -55,8 +55,8 @@ const writeToFile = (data) => generateMarkdown(data);
 
 // What is the use of the init() usage in JavaScript?
 // https://stackoverflow.com/questions/7884081/what-is-the-use-of-the-init-usage-in-javascript
-// // TODO: Create a function to initialize app
+// TODO: Create a function to initialize app
 // function init() {}
 
-// // Function call to initialize app
+// Function call to initialize app
 // init();
