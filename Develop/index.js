@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown  = require('./utils/generateMarkdown.js')
@@ -47,7 +47,7 @@ inquirer
         message: "If applicable, provide any tests written for your application and provide examples on how to run them."
     }, 
 ])
-.then((data) => fs.writeFile('README.md', writeToFile(data), (err) => 
+.then((data) => fs.writeFile('README-Guide.md', writeToFile(data), (err) => 
 err ? console.error(err) : console.log("Success! Your README.md file has been generated.")))
 
 const writeToFile = (data) => generateMarkdown(data);
