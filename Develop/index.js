@@ -1,9 +1,9 @@
-// Include packages needed for this application
+// Packages and module needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown  = require('./utils/generateMarkdown.js')
 
-// TODO: Create an array of questions for user input
+// Provide a series of questions to guide the user in creating the README.md file
 inquirer
 .prompt([
     {   type: 'input',
@@ -31,10 +31,10 @@ inquirer
         message: "Instructions for usage:"
     },
     {
-        type: 'list',
+        type: 'rawlist',
         name: 'license',
         message: "Choose a license for your project.",
-        choices: ['MIT License', 'GNU GPLv3.0', 'GNU AGPLv3', , 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense', 'No License']
+        choices: ['Apache License 2.0', 'Boost Software License 1.0', 'GNU AGPLv3', 'GNU GPLv3.0', 'GNU LGPLv3', 'MIT License', 'Mozilla Public License 2.0', 'The Unlicense', 'No License']
     },
     {
         type: "input",
@@ -47,16 +47,7 @@ inquirer
         message: "If applicable, provide any tests written for your application and provide examples on how to run them."
     }, 
 ])
-.then((data) => fs.writeFile('README-Guide.md', writeToFile(data), (err) => 
+.then((data) => fs.writeFile('README-Sample.md', writeToFile(data), (err) => 
 err ? console.error(err) : console.log("Success! Your README.md file has been generated.")))
 
 const writeToFile = (data) => generateMarkdown(data);
-
-
-// What is the use of the init() usage in JavaScript?
-// https://stackoverflow.com/questions/7884081/what-is-the-use-of-the-init-usage-in-javascript
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
