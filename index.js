@@ -34,7 +34,7 @@ inquirer
         type: 'rawlist',
         name: 'license',
         message: "Choose a license for your project.",
-        choices: ['MIT', 'Apache', 'BSD', 'GNU']
+        choices: ['MIT', 'Apache', 'BSD', 'GNU', 'Mozilla_Public_License']
     },
     {
         type: "input",
