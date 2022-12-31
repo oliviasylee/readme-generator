@@ -34,7 +34,7 @@ inquirer
         type: 'rawlist',
         name: 'license',
         message: "Choose a license for your project.",
-        choices: ['Apache License 2.0', 'Boost Software License 1.0', 'GNU AGPLv3', 'GNU GPLv3.0', 'GNU LGPLv3', 'MIT License', 'Mozilla Public License 2.0', 'The Unlicense', 'No License']
+        choices: ['MIT', 'Apache', 'BSD', 'GNU']
     },
     {
         type: "input",
