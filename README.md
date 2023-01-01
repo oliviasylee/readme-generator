@@ -9,6 +9,7 @@ To use this application, the user will need to clone the repository from GitHub 
 
 `npm i inquirer@8.2.4`
 ## Usage
+Here is a full movie showing how the application works: [Click here](https://drive.google.com/file/d/15lKOLtgPzJTrjJgrrsRjk0thSZhO1eGP/view) <br>
 [![README-generator-screenshot](Assets/README-generator-demo.gif)](https://github.com/oliviasylee/readme-generator)
 
 Run the command below at the root of your project.
@@ -18,3 +19,6 @@ Run the command below at the root of your project.
 To generate a README-sample file in the main folder, enter the information for your project.
 ## Contributing
 Olivia Seonyeong Lee
+
+## Questions
+If you have any questions about this projects, please contact me at oliviasylee@gmail.com. You can view more of my projects at https://github.com/oliviasylee.
