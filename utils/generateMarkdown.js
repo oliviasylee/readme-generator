@@ -1,4 +1,4 @@
-// Function that returns a license badge based on which license is passed in. If there is no license, return an empty string
+// Function that returns a license badge based on which license is passed in.
 function renderLicenseBadge(license) {
   if(!license)
     return ``;
@@ -31,6 +31,8 @@ function renderLicenseLink(license) {
 const generateMarkdown = data => {
   return `
   # ${data.title}
+
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
 
   ## Description
   ${data.description}
