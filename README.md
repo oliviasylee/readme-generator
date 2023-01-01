@@ -9,7 +9,8 @@ To use this application, the user will need to clone the repository from GitHub 
 
 `npm i inquirer@8.2.4`
 ## Usage
-[![README-generator-screenshot](Assets/images/README-generator-screenshot.png)](https://oliviasylee.github.io/readme-generator/)
+[![README-generator-screenshot](Assets/README-generator-demo.gif)](https://oliviasylee.github.io/readme-generator/)
+
 Run the command below at the root of your project.
 
 `node index.js`
