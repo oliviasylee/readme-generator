@@ -27,7 +27,7 @@
  This application is covered by the MIT. To learn more about this, click the license button.
   
   ## Tests
-  There are no test are included.
+  No tests are included.
   
   ## Contributing
   Olivia Seonyeong Lee
