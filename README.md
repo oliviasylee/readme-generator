@@ -9,7 +9,7 @@ To use this application, the user will need to clone the repository from GitHub 
 
 `npm i inquirer@8.2.4`
 ## Usage
-Here is a full movie showing how the application works: [Click here](https://drive.google.com/file/d/15lKOLtgPzJTrjJgrrsRjk0thSZhO1eGP/view) <br><br>
+Here is a full movie showing how the application works: [Click here](https://drive.google.com/file/d/15lKOLtgPzJTrjJgrrsRjk0thSZhO1eGP/view) <br>
 
 ### Application Interface
 [![README-generator-screenshot](Assets/README-generator_screenshot.png)](https://github.com/oliviasylee/readme-generator)
