@@ -19,8 +19,6 @@ Run the command below at the root of your project.
 `node index.js`
 
 To generate a README-sample file in the main folder, enter the information for your project.
-## Contributing
-Olivia Seonyeong Lee
 
 ## Questions
 If you have any questions about this projects, please contact me at oliviasylee@gmail.com. You can view more of my projects at https://github.com/oliviasylee.
